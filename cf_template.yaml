@@ -5,5 +5,5 @@ Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: !Sub "my-sample-bucket-${AWS::AccountId}"
+      BucketName: !Sub "github-bucket-${AWS::AccountId}"
 
